@@ -1,0 +1,143 @@
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instawrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 68%;
+    height: 100vh;
+}
+
+.instaphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.instaphone img{
+    height: 37.8rem;
+}
+
+.instalogin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 70%;
+    min-height: 37rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 17rem;
+    padding: 1rem;
+    width: 23rem;
+}
+
+.instalogo {
+    height: 3.5rem;
+}
+
+.photoprofile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photoprofile {
+    height: 8.8rem;
+}
+
+.insta-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.insta-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.notaccount {
+    color: rgb(160, 160, 160);
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem
+
+}
+
+.app-download {
+    height: 3rem;
+    width: 10.5rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('appstore.png')
+}
+
+.app-download:nth-child(2) {
+    background-image: url('playstore.png');
+}
+
+/* media queries */ 
+
+@media (max-width: 1024px) {
+    .instawrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .instawrapper {
+        width: 75%;
+    }
+    .instaphone {
+        display: none;
+    }
+    .instalogin {
+        width: 100%;
+    }
+}
